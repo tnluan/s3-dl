@@ -1,16 +1,33 @@
 {
-	"name": "s3-dl",
-	"version": "0.0.1",
-	"description": "",
-	"author": "tnluan",
-	"devDependencies": {
-		"aws-sdk": "^2.965.0",
-		"cli-progress": "^3.9.0",
-		"fs-extra": "^10.0.0",
-		"yargs": "^17.1.0"
-	},
-	"main": "index.js",
-	"bin": {
-		"s3-dl": "./index.js"
-	}
+  "name": "s3-dl",
+  "version": "0.0.1",
+  "description": "Download all files in any folder from S3",
+  "author": "tnluan",
+  "devDependencies": {
+    "aws-sdk": "^2.965.0",
+    "cli-progress": "^3.9.0",
+    "fs-extra": "^10.0.0",
+    "yargs": "^17.1.0"
+  },
+  "main": "index.js",
+  "bin": {
+    "s3-dl": "index.js"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngocluan1192/s3-dl.git"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "downloader"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngocluan1192/s3-dl/issues"
+  },
+  "homepage": "https://github.com/ngocluan1192/s3-dl#readme"
 }
