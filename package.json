@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Download all files in any folder from S3",
   "author": "tnluan",
-  "devDependencies": {
+  "dependencies": {
     "aws-sdk": "^2.965.0",
     "cli-progress": "^3.9.0",
     "fs-extra": "^10.0.0",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngocluan1192/s3-dl.git"
+    "url": "git+https://github.com/tnluan/s3-dl.git"
   },
   "keywords": [
     "aws",
@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ngocluan1192/s3-dl/issues"
+    "url": "https://github.com/tnluan/s3-dl/issues"
   },
-  "homepage": "https://github.com/ngocluan1192/s3-dl#readme"
+  "homepage": "https://github.com/tnluan/s3-dl#readme"
 }
