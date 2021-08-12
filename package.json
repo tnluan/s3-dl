@@ -1,6 +1,6 @@
 {
   "name": "s3-dl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Download all files in any folder from S3",
   "author": "tnluan",
   "dependencies": {
