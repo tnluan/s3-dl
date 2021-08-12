@@ -1,0 +1,16 @@
+{
+	"name": "s3-dl",
+	"version": "0.0.1",
+	"description": "",
+	"author": "tnluan",
+	"devDependencies": {
+		"aws-sdk": "^2.965.0",
+		"cli-progress": "^3.9.0",
+		"fs-extra": "^10.0.0",
+		"yargs": "^17.1.0"
+	},
+	"main": "index.js",
+	"bin": {
+		"s3-dl": "./index.js"
+	}
+}
